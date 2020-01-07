@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Dev Skills List</title>
+</head>
+<body>
+            <h1>DEV SKILLS</h1>
+    <ul>
+        <% list.forEach(function(sk){ %>
+            <li>
+                <a href="/skills/show">
+                    <%= sk.skill %>
+                </a>
+                - Level: <%= sk.level %>
+            </li>
+        <% }) %>
+    </ul>
+</body>
+</html>

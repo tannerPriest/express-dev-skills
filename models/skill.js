@@ -6,10 +6,10 @@ const skills = [
     {skill:"Express" , level:"No Comment"}
 ];
 
-const getSkill = (skill) => {
+const getSkill = () => {
     return skills;
-}
+};
 
-module.exports {
+module.exports = {
     getSkill
-}
+};
