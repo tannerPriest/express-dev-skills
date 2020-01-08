@@ -22,9 +22,14 @@ const create = (req, res) => {
   skillModel.create(req.body);
   res.redirect('/skills');
 };
+const deleteSkill = (req, res) => {
+  skillModel.deleteOne(req.params.id);
+  res.redirect('/skills');
+};
   module.exports = {
     index,
     show,
     new: newSkill,
-    create
+    create,
+    delete: deleteSkill
   };

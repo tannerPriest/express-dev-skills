@@ -17,8 +17,10 @@
                 <a href="/skills/<%= idx %>">
                     <%= sk.skill %>
                 </a>
-                - Level: <div class="level"><%= sk.level %></div>
-
+                - Level: "<div class="level"><%= sk.level %></div>"
+                <form method="POST" action="/skills/<%= idx %>?_method=DELETE"  style="display: inline;">
+                    <button type="submit">Delete Skill</button>
+                  </form>
             </li>
         <% }) %>
     </ul>

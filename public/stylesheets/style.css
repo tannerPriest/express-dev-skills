@@ -5,17 +5,28 @@ body {
   font-size: 18px;
   background-color: darkgray;
 }
-
+button {
+  padding: 4px;
+  font-size: 12px;
+  border-radius: 8px;
+  background-color: crimson;
+  color: burlywood;
+  font-style: bold;
+}
 a {
   color: aqua;
   text-decoration: none;
 }
 li {
   margin: 15px;
+  list-style: none;
 }
 .num {
   text-decoration: none;
   color: darkcyan;
+}
+.level {
+  color: darkslategray;
 }
 div {
   display: inline;
