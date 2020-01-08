@@ -10,6 +10,15 @@ const getSkill = () => {
     return skills;
 };
 
+const getOne = (id) => {
+    console.log(`SHOWING ${skills[id].skill} PAGE from the  MODEL`)
+    return skills[id];
+  };
+  const create = (skill) => {
+    skills.push(skill);
+};
 module.exports = {
-    getSkill
+    getSkill,
+    getOne,
+    create
 };

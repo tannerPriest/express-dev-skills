@@ -6,3 +6,8 @@ body {
 a {
   color: #00B7FF;
 }
+
+div {
+  display: inline;
+  text-decoration: underline;
+}
