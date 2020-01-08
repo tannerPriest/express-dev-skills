@@ -1,12 +1,22 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  background-color: darkgray;
 }
 
 a {
-  color: #00B7FF;
+  color: aqua;
+  text-decoration: none;
 }
-
+li {
+  margin: 15px;
+}
+.num {
+  text-decoration: none;
+  color: darkcyan;
+}
 div {
   display: inline;
   text-decoration: underline;

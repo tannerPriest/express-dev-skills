@@ -13,10 +13,11 @@
     <ul>
         <% list.forEach(function(sk, idx){ %>
             <li>
+                <div class="num"><%= idx + 1 %>. </div>
                 <a href="/skills/<%= idx %>">
                     <%= sk.skill %>
                 </a>
-                - Level: <div><%= sk.level %></div>
+                - Level: <div class="level"><%= sk.level %></div>
 
             </li>
         <% }) %>
